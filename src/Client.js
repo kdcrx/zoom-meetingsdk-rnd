@@ -8,7 +8,7 @@ const App = () => {
   const signatureEndpoint = "http://localhost:4000";
 
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-  const sdkKey = "UlNxDsDEHalw8fA9NsGNwiaqQvFVelpV6dwf";
+  const sdkKey = "";
   const role = 0;
   const leaveUrl = "http://localhost:3000";
 
