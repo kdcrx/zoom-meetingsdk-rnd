@@ -1,19 +1,36 @@
 main {
-  width: 70%;
+  background-color: white;
+  height: max-content;
+  width: 25vw;
+  padding: 2.5em 3em;
   margin: auto;
+  border-radius: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main input {
+  min-height: 3em;
+  margin-top: 20px;
+  padding: 8px 16px;
+  display: block;
+  border: 1px solid #8d8d8d;
+  border-radius: 5px;
+}
+
+main .actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
 }
 
 main button {
-  margin-top: 20px;
-  background-color: #2D8CFF;
+  margin: 20px 0;
+  background-color: #2d8cff;
   color: #ffffff;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  display: inline-block;
+  padding: 10px 40px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -21,5 +38,5 @@ main button {
 }
 
 main button:hover {
-  background-color: #2681F2;
+  background-color: #2681f2;
 }
